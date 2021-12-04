@@ -1,0 +1,10 @@
+@import "css/bootstrap.css";
+
+body.pageBackground{
+    height:100% !important;
+    background-image:linear-gradient(to bottom right, #432 0%, #234 100%);
+}
+html,body
+{
+    min-height:100%;
+}

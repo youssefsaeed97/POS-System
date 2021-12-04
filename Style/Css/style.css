@@ -1,0 +1,668 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	margin-bottom: auto;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: auto;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+.b4 {
+  background-color: rgba(0, 0, 0, 0.256);
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  left: 160px;
+  top: -158px;
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+}
+.b4:hover {
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.256);
+  background-color: rgba(255, 255, 255, 0.154);
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+}
+.b5 {
+  background-color: rgba(0, 0, 0, 0.256);
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  left: 336px;
+  top: -328px;
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+}
+.b5:hover {
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+
+  background-color: rgba(0, 0, 0, 0.256);
+  background-color: rgba(255, 255, 255, 0.154);
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+}
+.b6 {
+  background-color: rgba(0, 0, 0, 0.256);
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  left: 512px;
+  top: -498px;
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+}
+.b6:hover {
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.256);
+  background-color: rgba(255, 255, 255, 0.154);
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+
+}
+.b7 {
+  background-color: rgba(0, 0, 0, 0.256);
+  /*(*+placement: 704.5px -197px;*)
+      position: relative;
+      left: 704.5px;
+      top: -197px;*/
+  position: relative;
+  left: 160px;
+  top: -492px;
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+}
+.b7:hover {
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.256);
+  background-color: rgba(255, 255, 255, 0.154);
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+}
+.b8 {
+  background-color: rgba(0, 0, 0, 0.256);
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  left: 336px;
+  top: -662px;
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+}
+.b8:hover {
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.256);
+  background-color: rgba(255, 255, 255, 0.154);
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+}
+.b9 {
+  background-color: rgba(0, 0, 0, 0.256);
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  left: 512px;
+  top: -832px;
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+}
+.b9:hover {
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.256);
+  background-color: rgba(255, 255, 255, 0.154);
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+}
+.b10 {
+  background-color: rgba(0, 0, 0, 0.256);
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  left: 512px;
+  top: -832px;
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+  margin-top: -346px;
+  margin-left: 176px;
+}
+.b10:hover {
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.256);
+  background-color: rgba(255, 255, 255, 0.154);
+  height: 170px;
+  width: 170px;
+  border: thick;
+  color: #FFF;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body
+{
+	background-color:#303030;
+	
+}
+.all
+{
+	width: 890px;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: auto;
+
+
+}
+
+.txt , .txt td
+{
+	color: white;
+	font-size: 15px;
+	font-family: Trebuchet MS;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+	height:100%;
+	vertical-align: middle;
+	}
+.Two
+	{
+	float: left;
+	}
+.total{
+	
+	color: white;
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color: #1FB0D9;
+	padding: 4px;
+	height: 110px;
+	width: 230px;
+	float: left;
+}
+
+.Change
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color: #1FB0D9;
+	padding: 4px;
+	height: 110px;
+	width: 100px;
+	float: left;
+
+	}
+
+.Discount
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color: #1FB0D9;
+	padding: 4px;
+	height: 50px;
+	width: 90px;
+
+	}
+.NoTax
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color: #1FB0D9;
+	padding: 4px;
+	height: 50px;
+	width: 90px;
+	}
+
+.Cancel
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color: #1FB0D9;
+	padding: 4px;
+	height: 50px;
+	width: 90px;
+
+	}
+.Del
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color: #1FB0D9;
+	padding: 4px;
+	height: 50px;
+	width: 90px;
+	}
+.Tables
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color: #1FB0D9;
+	padding: 4px;
+	height: 50px;
+	width: 90px;
+
+	}
+.Edit
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color:#5C5C5C;
+	padding: 4px;
+	height: 50px;
+	width: 90px;
+	}
+
+.Print
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color:#FF9901;
+	padding: 4px;
+	height: 110px;
+	width: 110px;
+	float: left;
+
+	}
+	
+	.SEND
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color: rgb(190, 0, 50);
+	padding: 4px;
+	height: 110px;
+	width: 110px;
+	float: left;
+
+	}
+
+
+
+.items
+{
+    position: absolute;
+    overflow:auto;
+	color:#000;
+	margin-left: 12px;
+	margin-top: 122px;
+	background-color:#FFF;
+	padding: 4px;
+	height: 240px;
+	width: 230px;
+	float: left;
+}
+
+.item
+{
+    
+    position: absolute;
+    overflow:auto;
+	margin-left: 835px;
+	width: 300px;
+	height: 75.5%;
+	}
+	
+	.witem
+{
+    
+    position: absolute;
+    overflow:auto;
+	margin-left: 550px;
+	width: 300px;
+	height: 75.5%;
+	}
+	
+		.wfood
+{
+    
+
+    position: absolute;
+    overflow:auto;
+	margin-left: 265px;
+	margin-top: 135px;
+	width: 303px;
+	height: 100%;
+	}
+	
+	.food
+{
+    
+
+    position: absolute;
+    overflow:auto;
+	margin-left: 270px;
+	margin-top: 135px;
+	width: 603px;
+	height: 66%;
+	}
+	
+.item1
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color:#FF9901;
+	padding: 4px;
+	height: 80px;
+	width: 80px;
+	float: left;
+
+	}
+.item2
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color:#C373ED;
+	padding: 4px;
+	height: 80px;
+	width: 80px;
+	float: left;
+
+	}	
+.item3
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color:#E652A6;
+	padding: 4px;
+	height: 80px;
+	width: 80px;
+	float: left;
+
+	}	
+.item4
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color:#37A2B5;
+	padding: 4px;
+	height: 80px;
+	width: 80px;
+	float: left;
+
+	}	
+.item5
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color:#2C8A9E;
+	padding: 4px;
+	height: 80px;
+	width: 80px;
+	float: left;
+
+	}
+.item6
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color: #BB0772;
+	padding: 4px;
+	height: 80px;
+	width: 80px;
+	float: left;
+	}	
+.item7
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color:#5C5C5C;
+	padding: 4px;
+	height: 80px;
+	width: 80px;
+	float: left;
+
+	}	
+	.item8
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color:#E452E5;
+	padding: 4px;
+	height: 80px;
+	width: 80px;
+	float: left;
+
+	}
+	
+	.subitemTitel
+	{
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color:#E652A6;
+	padding: 4px;
+	height: 60px;
+	width: 350px;
+	float: left;	
+	}
+	.subitem
+	{
+		
+	margin-left: 2px;
+	margin-top: 1px;
+	background-color:#E652A6;
+	padding: 4px;
+	height: 30px;
+	width: 350px;
+	float: left;	
+		
+	}
+	.Bar
+	{
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000;
+	padding: 4px;
+	height: 70px;
+	width: 100%;
+	margin-bottom: 4px;
+	position: fixed;
+	bottom: 20px;
+	opacity: 0.85 ;
+	}
+		.Box
+	{
+	margin-left: 2%;
+	background-color: #1FB0D9;
+	padding: 4px;
+	height: 70px;
+	width: 80px;
+	margin-bottom: 4px;
+	position: fixed;
+	bottom: 20px;
+
+	}
+	.time
+	{
+	color:white;
+	font-size: 15px  ;
+	font-family: Trebuchet MS;
+	text-align: right;
+	font-weight: bold;
+	width: 90%;
+	height: 70px;
+	vertical-align: middle;
+		
+		
+	}
+	.status
+	{
+	color:#09F;
+	font-size: 15px  ;
+	font-family: Trebuchet MS;
+	text-align: right;
+	font-weight: bold;
+	width: 95%;
+	height: 70px;
+	vertical-align: middle;
+	}
+.logo
+{
+
+margin-left: 4px;
+margin-top: -1.8px;
+width: 90%;
+	
+}
+
+.logo1
+{
+
+margin-left: 4px;
+margin-top: -1.8px;
+width: 90%;
+	
+}
+
+.calculator
+{
+    position: absolute;
+	color:#000;
+	margin-left: 12px;
+	margin-top: 375px;
+    background-color: rgba(0, 0, 0, 0.2);
+	padding: 4px;
+	height: 290px;
+	width: 230px;
+	float: left;
+}
+
+.num {
+  background-color: rgba(0, 0, 0, 0.256);
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  margin-left: 2px;
+  margin-top: 2px;
+  height: 70px;
+  width: 74px;
+  font-family: Trebuchet MS;
+  border: thick;
+  color: #FFF;
+  float: left;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 2;
+}
+.num:hover {
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.154);
+  border: thick;
+  color: #FFF;
+}
+
+.numx {
+  background-color: rgba(255, 0, 0, 0.256);
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  margin-left: 2px;
+  margin-top: 2px;
+  height: 70px;
+  width: 74px;
+  font-family: Trebuchet MS;
+  border: thick;
+  color: #FFF;
+  float: left;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 2;
+}
+.numx:hover {
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.154);
+  border: thick;
+  color: #FFF;
+}
+
+.in_stock {
+  background-color: rgba(0, 0, 0, 0.256);
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  margin-left: 8px;
+  margin-top: 8px;
+  height: 100px;
+  width: 100px;
+  border: thick;
+  color: #FFF;
+  float: left;
+  text-align: center;
+font-size: 16px;
+font-weight: bold;
+line-height: 1.6;
+}
+.in_stock:hover {
+  /*+placement: 704.5px -197px;*/
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.154);
+  border: thick;
+  color: #FFF;
+}
